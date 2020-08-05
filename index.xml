@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archie</title>
-    <link>https://example.com/</link>
+    <link>https://tollefsonj.github.io/</link>
     <description>Recent content on Archie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Athul</copyright>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tollefsonj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bio</title>
-      <link>https://example.com/bio/</link>
+      <link>https://tollefsonj.github.io/bio/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
-      <guid>https://example.com/bio/</guid>
+      <guid>https://tollefsonj.github.io/bio/</guid>
       <description>This is who I am!!!!!</description>
     </item>
     
     <item>
       <title>Pubs</title>
-      <link>https://example.com/pubs/</link>
+      <link>https://tollefsonj.github.io/pubs/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
-      <guid>https://example.com/pubs/</guid>
+      <guid>https://tollefsonj.github.io/pubs/</guid>
       <description>Tollefson J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public.&amp;quot; Public Understanding of Science. DOI: 10.1177/0963662520936186
 Panikkar B. and Tollefson J. (2018) &amp;ldquo;Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska.&amp;quot; Social Studies of Science 48(5): 715-739. DOI: 10.1177/0306312718803453</description>
     </item>
