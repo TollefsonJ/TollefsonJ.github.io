@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archie</title>
+    <title>Jonathan Tollefson</title>
     <link>https://TollefsonJ.github.io/</link>
-    <description>Recent content on Archie</description>
+    <description>Recent content on Jonathan Tollefson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Athul</copyright>
     <lastBuildDate>Tue, 04 Aug 2020 14:27:38 -0400</lastBuildDate>
     
 	<atom:link href="https://TollefsonJ.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -18,17 +17,27 @@
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/bio/</guid>
-      <description>This is who I am!!!!!</description>
+      <description>Bio This is who I am!!!!!</description>
     </item>
     
     <item>
-      <title>Pubs</title>
+      <title>Recent work</title>
       <link>https://TollefsonJ.github.io/pubs/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/pubs/</guid>
-      <description>Tollefson J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public.&amp;quot; Public Understanding of Science. DOI: 10.1177/0963662520936186
-Panikkar B. and Tollefson J. (2018) &amp;ldquo;Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska.&amp;quot; Social Studies of Science 48(5): 715-739. DOI: 10.1177/0306312718803453</description>
+      <description>Publications Tollefson J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public.&amp;quot; Public Understanding of Science. DOI: 10.1177/0963662520936186
+Panikkar B. and Tollefson J. (2018) &amp;ldquo;Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska.&amp;quot; Social Studies of Science 48(5): 715-739. DOI: 10.1177/0306312718803453
+Presentations </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://TollefsonJ.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://TollefsonJ.github.io/projects/</guid>
+      <description></description>
     </item>
     
   </channel>

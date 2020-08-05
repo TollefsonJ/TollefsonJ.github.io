@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
 /* Markdown */
 :root{
---maincolor: red;
+--maincolor: black;
 --bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
---hovercolor:navy;
+--hovercolor:gray;
 --darkMaincolor: #50fa7b;
 }
 html {
@@ -145,10 +145,24 @@ header {
 header .main {
   font-size: 1.5rem;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-size: 1.2rem;
   margin-top: 2em;
 }
+
+header .main {
+  font-size: 1.5rem;
+}
+h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+  margin-top: 2em;
+}
+
+
+
+
+
+
 
 h1::before { color: var(--maincolor); content: '# '; }
 h2::before { color: var(--maincolor); content: '## '; }
@@ -206,11 +220,11 @@ justify-content: space-between;
   content: "🏷 ";
 }
 .tags a{
-  border-bottom: 3px solid var(--maincolor); 
+  border-bottom: 3px solid var(--maincolor);
 }
 .tags a:hover{
   color:white;
-  background-color: var(--hovercolor); 
+  background-color: var(--hovercolor);
 }
 svg{
   max-height: 15px;
@@ -218,7 +232,7 @@ svg{
 .soc:hover{
   color: white;
 }
-.draft-label{ 
+.draft-label{
     color: var(--bordercl);
     text-decoration: none;
     padding: 2px 4px;
@@ -269,7 +283,7 @@ color:white
 .highlight pre code[class*='language-json']::before{
 content: 'json';
 background: dodgerblue;
- color: #000000 
+ color: #000000
 }
 .highlight pre code[class*='language-python']::before,
 .highlight pre code[class*='language-py']::before {
