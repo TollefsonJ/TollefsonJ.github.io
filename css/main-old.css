@@ -46,8 +46,8 @@ blockquote {
 }
 
 a {
-  border-bottom: 1px solid var(--maincolor);
-  color: blue;
+  border-bottom: 3px solid var(--maincolor);
+  color: inherit;
   text-decoration: none;
 }
 a:hover {
@@ -56,15 +56,14 @@ a:hover {
 }
 
 ul {
-  list-style: square;
+  list-style: none;
   padding-left: 2ch;
 }
 ul li {
-  text-indent: 0ch;
-  font-family: 'IBM Plex Sans', sans-serif;
+  text-indent: -2ch;
 }
 ul li::before {
-  content: '';
+  content: '* ';
   font-weight: bold;
 }
 
@@ -153,7 +152,7 @@ h1 {
 }
 h2, h3, h4, h5, h6 {
   font-size: 1rem;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 
