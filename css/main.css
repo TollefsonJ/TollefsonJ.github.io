@@ -149,13 +149,17 @@ header .main {
 }
 h1 {
   font-size: 1.2rem;
-  margin-top: 1em;
+  margin-top: 2em;
 }
-h2, h3, h4, h5, h6 {
+h2 {
+  font-size: 1rem;
+  margin-top: 2em;
+}
+h3, h4, h5, h6 {
   font-size: 1rem;
   margin-top: 1em;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
-
 
 /* uncomment to add hashtags before headings:
 h1::before { color: var(--maincolor); content: '# '; }
