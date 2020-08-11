@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title> - Jonathan Tollefson</title>
+  <title>FMGP methods - Jonathan Tollefson</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Jonathan Tollefson" /><meta name="description" content="Here&amp;rsquo;s a description of the analysis process as it stands, as succinct as possible.
-Sanborn maps Sanborn maps were published regularly starting in the late 19th century. Sanborn atlases cover most US cities with a population greater than about 6000 [@hathewayRemediationFormerManufactured2012], and most larger cities were mapped and remapped at regular intervals to account for changes to the urban landscape. Atlases consist of multiple map volumes made up of several hundred pages representing just a few square blocks of city space." />
+<meta name="author" content="Jonathan Tollefson" /><meta name="description" content="Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
+Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves." />
 
 
 
@@ -40,25 +40,27 @@ Sanborn maps Sanborn maps were published regularly starting in the late 19th cen
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="" />
-<meta property="og:description" content="Here&rsquo;s a description of the analysis process as it stands, as succinct as possible.
-Sanborn maps Sanborn maps were published regularly starting in the late 19th century. Sanborn atlases cover most US cities with a population greater than about 6000 [@hathewayRemediationFormerManufactured2012], and most larger cities were mapped and remapped at regular intervals to account for changes to the urban landscape. Atlases consist of multiple map volumes made up of several hundred pages representing just a few square blocks of city space." />
+<meta property="og:title" content="FMGP methods" />
+<meta property="og:description" content="Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
+Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://TollefsonJ.github.io/fmgp_method/" />
-
-<meta itemprop="name" content="">
-<meta itemprop="description" content="Here&rsquo;s a description of the analysis process as it stands, as succinct as possible.
-Sanborn maps Sanborn maps were published regularly starting in the late 19th century. Sanborn atlases cover most US cities with a population greater than about 6000 [@hathewayRemediationFormerManufactured2012], and most larger cities were mapped and remapped at regular intervals to account for changes to the urban landscape. Atlases consist of multiple map volumes made up of several hundred pages representing just a few square blocks of city space.">
-
-<meta itemprop="wordCount" content="748">
+<meta property="article:published_time" content="2020-08-04T14:27:38-04:00" />
+<meta property="article:modified_time" content="2020-08-04T14:27:38-04:00" />
+<meta itemprop="name" content="FMGP methods">
+<meta itemprop="description" content="Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
+Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves.">
+<meta itemprop="datePublished" content="2020-08-04T14:27:38-04:00" />
+<meta itemprop="dateModified" content="2020-08-04T14:27:38-04:00" />
+<meta itemprop="wordCount" content="1502">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Here&rsquo;s a description of the analysis process as it stands, as succinct as possible.
-Sanborn maps Sanborn maps were published regularly starting in the late 19th century. Sanborn atlases cover most US cities with a population greater than about 6000 [@hathewayRemediationFormerManufactured2012], and most larger cities were mapped and remapped at regular intervals to account for changes to the urban landscape. Atlases consist of multiple map volumes made up of several hundred pages representing just a few square blocks of city space."/>
+<meta name="twitter:title" content="FMGP methods"/>
+<meta name="twitter:description" content="Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
+Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -117,21 +119,87 @@ Sanborn maps Sanborn maps were published regularly starting in the late 19th cen
         <div id="content" class="content">
           <article class="post">
   <div class="post-content">
-    <p>Here&rsquo;s a description of the analysis process as it stands, as succinct as possible.</p>
-<h1 id="sanborn-maps">Sanborn maps</h1>
-<p>Sanborn maps were published regularly starting in the late 19th century. Sanborn atlases cover most US cities with a population greater than about 6000 [@hathewayRemediationFormerManufactured2012], and most larger cities were mapped and remapped at regular intervals to account for changes to the urban landscape. Atlases consist of multiple map volumes made up of several hundred pages representing just a few square blocks of city space. Today, map files are available for public use primarily via three database providers (see @tbl:maps) with different approaches to digitization, file storage, and access.</p>
-<p>| Source | Completeness | Access | Map quality | Download availability |
-|&mdash;      |&mdash;-       |&mdash;    |&mdash;|
-| ProQuest Sanborn Digital Ed. | Most complete  | Many university and public libraries | Low quality B+W line drawings | No bulk download |
-| FIMo | Most complete | Some university and public libraries | High quality color scans | No bulk download |
-| Library of Congress  | Very complete | Publicly available | High quality color scans | Simple bulk API |
-Table: Sanborn map sources {#tbl:maps}</p>
-<p>Library of Congress (LOC) maps are likely the best option for regional map analysis for two reasons. First, LOC maps are available for bulk download using a simple script to communicate with the LOC API. The API allows for map downloads at any regional and temporal scale; for example, a single API query returns all Sanborn files for every city in New England across every available publication year. Second, LOC files are stored as high quality digital color scans. Most circular features are color-filled and therefore more easily identifiable using the Hough.Circles package.</p>
-<p>Two additional databases host digitized Sanborn images, most prominently ProQuest&rsquo;s &ldquo;Sanborn Digital Edition&rdquo; and Fire Insurance Maps Online (FIMo). Digital Edition maps are rendered as black and white line-drawings; they are widely available for multiple cities over multiple years, but suffer from low scan quality and frequent misprints. FIMo maps, like LOC map scans, are available in full color, but suffer from poor download resolution. The ProQuest and FIMo databases are marginally more complete than the LOC repository; neither database allows for bulk file downloads, however, severely limiting their utility for map analysis at a broad spatial and temporal scale. It is possible to partially automate the download process using CURL, taking advantage of the fact that the ProQuest and Sanborn databases store map pages according to a predictable sequence of URLs. FIMo maps are stored in a sequence of logically-numbered JPG files with a common base URL, which allows us to download FIMo maps city-by-city or volume-by-volume. The ProQuest database instead iterates components of the URL path for each maps page, and stores map files as PDF documents with a single filename (&ldquo;default.pdf&rdquo;). This requires that we first generate a list of unique URLs based on a set of predictable parameters, which is automated using a simple Python script. ProQuest maps can be downloaded volume-by-volume.</p>
-<p>The CURL utility netted a total of 1367 individual map pages for the target Providence and Seattle atlases: 137 from the 1889 Providence map set; 441 from Providence, 1920; 164 from Seattle, 1893; and 625 from Seattle, 1916.</p>
-<p>FIMo is structured in a manner especially amenable to CURL automation. Using simple CURL syntax, it is possible to download multiple volumes of multiple Sanborn atlases, across multiple years, by iterating different segments of the target URL. The Sanborn Digital database is slightly less accessible, however, and requires a separate CURL command for each Sanborn volume. Even so, CURL automation significantly reduces the time required to access map pages in bulk,and allows anybody with access to FIMo or Sanborn databases to easily download Sanborn maps for bulk analysis. Further time savings may be possible by purchasing sections of the FIMo or Sanborn databases directly.</p>
-<h2 id="file-preparation">File preparation</h2>
-<p>Each of the 1367 pages were directed through one of two Detect_Circles scripts, one optimized for color map scans (FIMo, Brown Digital Repository) and one for black and white Sanborn Digital files. Map pages from the FIMo and Brown Digital Repository sources were downloaded directly as JPG files. Sanborn Digital maps were downloaded as PDF documents and converted to JPG using PDF2IMG (<strong>source</strong>). Detect_Circles includes specific parameters for different circle radii, measured in number of pixels. Accordingly, all map images were resized to a common resolution. Map images were then blurred and converted to grayscale before being passed to the Detect_Circles algorithm.</p>
+    <h1 id="detecting-fmgp-sites-with-opencv">Detecting FMGP sites with OpenCV</h1>
+<p>This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.</p>
+<h2 id="introduction">Introduction</h2>
+<p>From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves. The production of manufactured gas (MFG, coal gas, or &ldquo;town gas&rdquo;) was a major business, and homes and business were increasingly linked via city-wide networks of underground gas pipes to central MFG production sites. Populous cities might include several dozen such sites, and even smaller, remote cities would have had at least one MFG plant by the end of the 1800s (Brown, 1886). Gas utilities additionally relied upon a network of intermediary gasholders (or &ldquo;gasometers&rdquo;) used to maintain adequate gas pressure for far-flung neighborhoods or institutions (Hatheway, 2012). Utility sites were joined by numerous smaller plants built to provide lighting, heat, or energy to individual institutions, including hospitals, educational institutions, manufacturing plants, railroad yards, and private estates. As MFG gave way to natural gas in the mid-20th century, the production and distribution sites that were once a striking visual symbol of the industrialized city were largely abandoned; some sites fell into disrepair, while others were demolished and the sites redeveloped for industrial, commercial, or residential use.</p>
+<p>This is a problem because the MFG industry produced substantial waste products under minimal environmental regulation, principally coal tar and tar-related wastes (Ecology &amp; Environment Inc, 1986; Hatheway, 2012; White and Barker, 1911). FMGP sites therefore signify the possible presence of compounds which present significant health hazards: Coal tar residuals contain the polycyclic aromatic hydrocarbon group of compounds, which represent both carcinogenic and mutagenic risk (Kim et al., 2013). Tar wastes are also persistent: Absent remediation, the risks associated with FMGP byproducts will not diminish (Hatheway, 2012). Health risks are compounded by the fact that pre-EPA zoning regulations largely failed to keep industry out of residential areas (Frickel and Elliott, 2018). In other words, undetected FMGP sites may lurk beneath areas not traditionally reserved for heavy industry, including residential or commercial corridors; waste compounds might additionally cross parcel boundaries through flooding or other hydraulic action.</p>
+<p>Former manufactured gas plants (FMGPs) are routinely discovered by accident - perhaps as often as once a month across the US (Hatheway, 2012) - including the 1980 discovery in Stroudsburg, PA, of the first site to be listed under the Superfund program (Phillips, 1991). Despite demonstrated health risks associated with exposure to MFG byproducts and the near-total lack of regulatory oversight over the century-long span of the MFG industry, however, no full accounting of the MFG production and distribution network has been achieved. This is in part because of several limitations in available data which have made the identification of FMGP site locations at a comprehensive scale an expensive and time-consuming undertaking.</p>
+<p>In response to these limitations, we propose a new method to precisely identify FMGP sites on a national scale by applying computer vision functions to digitized images of Sanborn fire insurance maps. This method focuses on a unique visual component of MFG production and distribution sites: The gasometer, or gas holder, a large circular building captured in period maps as a distinct circular outline. We developed Detect_Circles, a tool to identify circular structures in Sanborn map documents, and tested it with images drawn from five sets of Sanborn map scans covering the city of Providence, RI. Our results demonstrate that computer-aided map coding significantly reduces the time required to accurately locate possible FMGPs on a national scale and across multiple historical timepoints. This approach allows for a more complete accounting of the growth and extent of the MFG industry as a whole; it also makes way for a spatial analysis of the distribution of FMGP sites, as both a key component of the growth of the industrial city and as a source of contemporary contamination and toxic risk.</p>
+<h2 id="sanborn-maps">Sanborn maps</h2>
+<p>Sanborn maps were published regularly starting in the late 19th century. Sanborn atlases cover most US cities with a population greater than about 6000 (Hatheway, 2012), and most larger cities were mapped and remapped at regular intervals to account for changes to the urban landscape. Atlases consist of multiple map volumes made up of several hundred pages representing just a few square blocks of city space. Today, map files are available for public use primarily via three database providers with different approaches to digitization, file storage, and access.</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Completeness</th>
+<th>Access</th>
+<th>Map quality</th>
+<th>Download availability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ProQuest Sanborn Digital Ed.</td>
+<td>Most complete</td>
+<td>Many university and public libraries</td>
+<td>Low quality B+W line drawings</td>
+<td>No bulk download</td>
+</tr>
+<tr>
+<td>FIMo</td>
+<td>Most complete</td>
+<td>Some university and public libraries</td>
+<td>High quality color scans</td>
+<td>No bulk download</td>
+</tr>
+<tr>
+<td>Library of Congress</td>
+<td>Very complete</td>
+<td>Publicly available</td>
+<td>High quality color scans</td>
+<td>Simple bulk API</td>
+</tr>
+</tbody>
+</table>
+<p>Library of Congress (LOC) maps are most amenable to large-scale map analysis for two reasons. First, LOC maps are available for bulk download using a simple script to communicate with the LOC API. The API allows for map downloads at any regional and temporal scale; for example, a single API query returns all Sanborn files for every city in New England across every available publication year. Second, LOC files are stored as high quality digital color scans. Most circular features are color-filled and therefore more easily identifiable using the Hough.Circles package.</p>
+<p>ProQuest&rsquo;s &ldquo;Sanborn Digital Edition&rdquo; and Fire Insurance Maps Online (FIMo) also host Sanborn map images. ProQuest maps are rendered as black and white line-drawings; they are widely available for multiple cities over multiple years, but suffer from low scan quality and frequent misprints. FIMo maps, like LOC map scans, are available in full color, but suffer from poor download resolution. The ProQuest and FIMo databases are marginally more complete than the LOC repository; neither database allows for bulk file downloads, however, severely limiting their utility for map analysis at a broad spatial and temporal scale. It is possible to partially automate the download process, using the CURL utility, by taking advantage of the fact that the ProQuest and Sanborn databases store map pages according to a predictable sequence of URLs. FIMo maps are stored in a sequence of logically-numbered JPG files with a common base URL, which allows us to download FIMo maps city-by-city or volume-by-volume. The ProQuest database instead iterates components of the URL path for each maps page, and stores map files as PDF documents with a single filename (&ldquo;default.pdf&rdquo;). The ProQuest database structure requires that we first generate a list of unique URLs based on a set of predictable parameters, which can automated for each map volume using a simple Python script. Even with the help of the CURL utility, however, ProQuest and FIMo maps are much less amenable to bulk analysis.</p>
+<h2 id="map-analysis">Map analysis</h2>
+<p>We use a simple Python script (&ldquo;Detect_Circles&rdquo;) to analyze Sanborn map images for circular features that correspond with possible FMGP building outlines, using the Hough.Circles package in OpenCV (<a href="http://opencv.org">http://opencv.org</a>). The Detect_Circles script (1) re-sizes images to a common resolution; (2) iterates the Hough.Circles package through multiple ranges of possible circle radii; (3) marks all circles that fall within a defined set of analysis parameters; and (4) outputs images with marked circles to an &ldquo;output&rdquo; directory for manual site coding.</p>
+<p>See below for example input/output image pairs for ProQuest and LOC maps, respectively.</p>
+<h4 id="loc-inputoutput-images">LOC input/output images</h4>
+<p><a href="/sanborn/LOC-Providence1889vol1_00005L.jpg"><img src="/sanborn/LOC-Providence1889vol1_00005L.jpg" style="float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;">
+<a href="/sanborn/LOC-Providence1889vol1_00005L_out.jpg"><img src="/sanborn/LOC-Providence1889vol1_00005L_out.jpg" style="float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;"></p>
+<p style="clear: both;">
+</a>
+<h4 id="sanborn-inputoutput-images">Sanborn input/output images</h4>
+<p><a href="/sanborn/DIG-Providence1920vol1_00027.jpg"><img src="/sanborn/DIG-Providence1920vol1_00027.jpg" style="float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;">
+<a href="/sanborn/DIG-Providence1920vol1_00027_out.jpg"><img src="/sanborn/DIG-Providence1920vol1_00027_out.jpg" style="float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;"></p>
+<p style="clear: both;">
+</a>
+<h2 id="outcome">Outcome</h2>
+<p>Detect_Circles parameters were tuned through an iterative process which sought to minimize false positives while ensuring that the algorithm did not fail to identify any &ldquo;true&rdquo; circles. An analysis of Providence, RI area maps covering the years 1889, 1899, 1920-21, and 1921-56 reveals that the Detect_Circles script accurately identifies all circular features and reduces the number of images for manual coding by 85-90%, making it possible to identify former manufacture gas production and distribution sites at a much greater geographic and temporal scale.</p>
+<h2 id="references">References</h2>
+<p>Brown, E. C. (1886). <em>Brown&rsquo;s directory of American gas companies</em>.</p>
+<p>Ecology &amp; Environment Inc. (1986). <em>Coal/oil gasification site study,
+Region X</em> (TDD R10-8405-03). US Environmental Protection Agency.</p>
+<p>Frickel, S., &amp; Elliott, J. R. (2018). <em>Sites unseen: Uncovering hidden
+hazards in American cities</em>. Russel Sage Foundation.</p>
+<p>Hatheway, A. W. (2012). <em>Remediation of former manufactured gas plants
+and other coal-tar sites</em>. CRC Press.</p>
+<p>Kim, K. H., Jahan, S. A., Kabir, E., &amp; Brown, R. J. (2013). A review of
+airborne polycyclic aromatic hydrocarbons (PAHs) and their human health
+effects. <em>Environment International</em>, <em>60</em>, 71&ndash;80.
+<a href="https://doi.org/10.1016/j.envint.2013.07.019">https://doi.org/10.1016/j.envint.2013.07.019</a></p>
+<p>Phillips, W. H. (1991). Cleanup of manufactured gas plants: Utilities
+may be liable. <em>Environmental Claims Journal</em>, <em>4</em>(2), 231&ndash;245.
+<a href="https://doi.org/10.1080/10406029109379158">https://doi.org/10.1080/10406029109379158</a></p>
+<p>Radian Corporation. (1985). <em>Survey of town gas and by-product
+production and locations in the US (1880-1950)</em> (EPA-600/7-85-004). US
+Environmental Protection Agency.</p>
+<p>White, A. H., &amp; Barker, P. (1911). <em>Coals available for the manufacture
+of illuminating gas</em> (Bulletin Nos. 6). Bureau of Mines, US Department
+of Interior.</p>
 
   </div>
 </article>

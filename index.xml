@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>FMGP methods</title>
+      <link>https://TollefsonJ.github.io/fmgp_method/</link>
+      <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
+      
+      <guid>https://TollefsonJ.github.io/fmgp_method/</guid>
+      <description>Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
+Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves.</description>
+    </item>
+    
+    <item>
       <title>Historical environmental geography of the Providence manufactured gas industry</title>
       <link>https://TollefsonJ.github.io/research/fmgp/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
@@ -106,12 +116,24 @@ Back to projects \</description>
     
     <item>
       <title></title>
-      <link>https://TollefsonJ.github.io/fmgp_method/</link>
+      <link>https://TollefsonJ.github.io/fmgp_method_out/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://TollefsonJ.github.io/fmgp_method/</guid>
+      <guid>https://TollefsonJ.github.io/fmgp_method_out/</guid>
       <description>Here&amp;rsquo;s a description of the analysis process as it stands, as succinct as possible.
-Sanborn maps Sanborn maps were published regularly starting in the late 19th century. Sanborn atlases cover most US cities with a population greater than about 6000 [@hathewayRemediationFormerManufactured2012], and most larger cities were mapped and remapped at regular intervals to account for changes to the urban landscape. Atlases consist of multiple map volumes made up of several hundred pages representing just a few square blocks of city space.</description>
+&amp;lt;a href=&amp;quot;/sanborn/LOC-Providence1889vol1_00005L.jpg&amp;quot;&amp;gt;{=html}&amp;lt;img src=&amp;quot;/sanborn/LOC-Providence1889vol1_00005L.jpg&amp;quot; style=&amp;quot;float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;&amp;quot;&amp;gt;{=html} &amp;lt;a href=&amp;quot;/sanborn/LOC-Providence1889vol1_00005L_out.jpg&amp;quot;&amp;gt;{=html}&amp;lt;img src=&amp;quot;/sanborn/LOC-Providence1889vol1_00005L_out.jpg&amp;quot; style=&amp;quot;float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;&amp;quot;&amp;gt;{=html}
+1  &amp;lt;p style=&amp;#34;clear: both;&amp;#34;&amp;gt;   &amp;lt;/a&amp;gt;{=html}
+&amp;lt;a href=&amp;quot;/sanborn/DIG-Providence1920vol1_00027.jpg&amp;quot;&amp;gt;{=html}&amp;lt;img src=&amp;quot;/sanborn/DIG-Providence1920vol1_00027.jpg&amp;quot; style=&amp;quot;float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;&amp;quot;&amp;gt;{=html} &amp;lt;a href=&amp;quot;/sanborn/DIG-Providence1920vol1_00027_out.jpg&amp;quot;&amp;gt;{=html}&amp;lt;img src=&amp;quot;/sanborn/DIG-Providence1920vol1_00027_out.jpg&amp;quot; style=&amp;quot;float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;&amp;quot;&amp;gt;{=html}
+1  &amp;lt;p style=&amp;#34;clear: both;&amp;#34;&amp;gt;   &amp;lt;/a&amp;gt;{=html}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://TollefsonJ.github.io/fmgp_significance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://TollefsonJ.github.io/fmgp_significance/</guid>
+      <description>Significance FMGP sites represent a particularly pressing case for environmental researchers, sociologists, and communities alike. Despite the impact of the MFG industry on daily life, the built environment, and the industrial economy for nearly a century, contemporary social and environmental scientists have yet to address the industry as a systemic source of persistent urban contamination. Moreover, even as individual FMGP sites have dogged municipalities and agencies responsible for site remediation, researchers and remediation professionals are ill-equipped to track possible FMGP-related toxicity.</description>
     </item>
     
     <item>

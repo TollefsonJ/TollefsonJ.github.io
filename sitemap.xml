@@ -16,6 +16,13 @@
   </url>
   
   <url>
+    <loc>https://TollefsonJ.github.io/fmgp_method/</loc>
+    <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://TollefsonJ.github.io/research/fmgp/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,7 +86,13 @@
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/fmgp_method/</loc>
+    <loc>https://TollefsonJ.github.io/fmgp_method_out/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://TollefsonJ.github.io/fmgp_significance/</loc>
     <priority>0</priority>
   </url>
   
