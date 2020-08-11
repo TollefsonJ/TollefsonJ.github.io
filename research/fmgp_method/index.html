@@ -52,7 +52,7 @@ Introduction From the mid-19th to the mid-20th century, most homes, institutions
 Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves.">
 <meta itemprop="datePublished" content="2020-08-04T14:27:38-04:00" />
 <meta itemprop="dateModified" content="2020-08-04T14:27:38-04:00" />
-<meta itemprop="wordCount" content="2051">
+<meta itemprop="wordCount" content="2077">
 
 
 
@@ -184,7 +184,7 @@ Introduction From the mid-19th to the mid-20th century, most homes, institutions
 <p>First, all map pages include the image of a compass rose to orient readers directionally. Some map volumes printed the compass image with a central circular figure, of a comparable size to many FMGP site circles. Expanding the detection algorithm beyond Providence requires that we exclude compass circles from being detected as relevant features. This is complicated by the fact that there is no way to determine whether a compass circle is present in a given map volume without visual inspection.</p>
 <p>Second, some map pages include prominent circular or ovular titles, many - but not all - of which are picked up by the Detect_Circles script as a possible positive result. Increasing the stringency of Hough.Circles parameters to the point that ovular titles are not recognized as relevant circular features has the unacceptable consequence of causing the Detect_Circle algorithm to skip over poorly-printed or misshaped FMGP circles.</p>
 <p>A possible solution to both above challenges is to run all map images through a pre-analysis that screens for the presence of circles associated with compass or title figures. Such an algorithm might then direct maps that includes compass or title circles to an altered version of the Detect_Circles script.</p>
-<p>See below for two types of titles erroneously identified as possible FMGP candidates.</p>
+<p>See below for two types of titles erroneously identified as possible FMGP candidates. The first image includes a problematic compass rose, though in this case the compass was not picked up by the Hough.Circles package as a possible circle.</p>
 <p><a href="/sanborn/title1.jpg"><img src="/sanborn/title1.jpg" style="float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;">
 <a href="/sanborn/title2.jpg"><img src="/sanborn/title2.jpg" style="float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;"></p>
 <p style="clear: both;">
