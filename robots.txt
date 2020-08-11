@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: https://TollefsonJ.github.io/sitemap.xml
