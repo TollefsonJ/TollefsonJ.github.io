@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>FMGP methods</title>
+      <link>https://TollefsonJ.github.io/research/fmgp_method/</link>
+      <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
+      
+      <guid>https://TollefsonJ.github.io/research/fmgp_method/</guid>
+      <description>Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
+Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves.</description>
+    </item>
+    
+    <item>
       <title>Historical environmental geography of the Providence manufactured gas industry</title>
       <link>https://TollefsonJ.github.io/research/fmgp/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
