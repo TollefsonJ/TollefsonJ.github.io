@@ -5,7 +5,7 @@
     <link>https://TollefsonJ.github.io/</link>
     <description>Recent content on Jonathan Tollefson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Tue, 04 Aug 2020 14:27:38 -0400</lastBuildDate>
     
 	<atom:link href="https://TollefsonJ.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -22,27 +22,37 @@
     
     <item>
       <title>Historical environmental geography of the Providence manufactured gas industry</title>
-      <link>https://TollefsonJ.github.io/proj/fmgp/</link>
+      <link>https://TollefsonJ.github.io/research/fmgp/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
-      <guid>https://TollefsonJ.github.io/proj/fmgp/</guid>
-      <description>This project uses blah blah blah
+      <guid>https://TollefsonJ.github.io/research/fmgp/</guid>
+      <description>Historical environmental geography of the Providence manufactured gas industry This project uses blah blah blah
 Maps below do blah blah
- Publications
+ \ \ \ Publications
 Frickel, S. and Tollefson, J. (2020) &amp;ldquo;Before Spindletop: New computational methods for excavating America’s forgotten fossil fuel industry&amp;rdquo;. Under review.
 
-Back to projects </description>
+Back to projects \</description>
     </item>
     
     <item>
       <title>Political ecology of large mine permitting</title>
-      <link>https://TollefsonJ.github.io/proj/alaska/</link>
+      <link>https://TollefsonJ.github.io/research/alaska/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
-      <guid>https://TollefsonJ.github.io/proj/alaska/</guid>
-      <description>Publications
+      <guid>https://TollefsonJ.github.io/research/alaska/</guid>
+      <description>Political ecology of large mine permitting Publications
 Tollefson, J. and Panikkar, B. (2020) &amp;ldquo;Impact assessment, public engagement, and environmental knowledge production: Large mine permitting in Alaska’s Yukon-Kuskokwim Delta&amp;rdquo;. Under review.
-Panikkar, B. and Tollefson, J. (2018) &amp;ldquo;Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska&amp;rdquo;. Social Studies of Science 48(5): 715-739. DOI: 10.1177/0306312718803453 Back to projects </description>
+Panikkar, B. and Tollefson, J. (2018) &amp;ldquo;Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska&amp;rdquo;. Social Studies of Science 48(5): 715-739. DOI: 10.1177/0306312718803453 Back to projects \</description>
+    </item>
+    
+    <item>
+      <title>Post-Fukushima discourse in the US press</title>
+      <link>https://TollefsonJ.github.io/work/fukushima_paper/</link>
+      <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
+      
+      <guid>https://TollefsonJ.github.io/work/fukushima_paper/</guid>
+      <description>Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo; Public Understanding of Science | (PDF)
+Many thought that the 11 March 2011 Fukushima nuclear disaster in Japan might be the end of the “global nuclear renaissance.” In Europe, mass media after Fukushima increasingly presented negative framing of nuclear energy and highlighted declining support for the nuclear industry. In the United States, however, nuclear production and public support for the industry remained steady.</description>
     </item>
     
     <item>
@@ -54,7 +64,7 @@ Panikkar, B. and Tollefson, J. (2018) &amp;ldquo;Land as material, knowledge and
       <description>Working papers Tollefson, J. and Panikkar, B. (2020) &amp;ldquo;Impact assessment, public engagement, and environmental knowledge production: Large mine permitting in Alaska’s Yukon-Kuskokwim Delta&amp;rdquo;. Under review.
 Frickel, S. and Tollefson, J. (2020) &amp;ldquo;Before Spindletop: New computational methods for excavating America’s forgotten fossil fuel industry&amp;rdquo;. Under review.
 Articles Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo;. Public Understanding of Science.
-Panikkar, B.</description>
+Panikkar, B. and Tollefson, J.</description>
     </item>
     
     <item>
@@ -65,70 +75,61 @@ Panikkar, B.</description>
       <guid>https://TollefsonJ.github.io/pubs2/</guid>
       <description>Working papers Tollefson, J. and Panikkar, B. (2020) &amp;ldquo;Impact assessment, public engagement, and environmental knowledge production: Large mine permitting in Alaska’s Yukon-Kuskokwim Delta&amp;rdquo;. Under review.
 Frickel, S. and Tollefson, J. (2020) &amp;ldquo;Before Spindletop: New computational methods for excavating America’s forgotten fossil fuel industry&amp;rdquo;. Under review.
-Articles Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo;. Public Understanding of Science. DOI: 10.</description>
+Articles Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo;. Public Understanding of Science. DOI: 10.1177/0963662520936186</description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>https://TollefsonJ.github.io/research/</link>
+      <link>https://TollefsonJ.github.io/projects/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
-      <guid>https://TollefsonJ.github.io/research/</guid>
-      <description>Spatial analysis of former manufactured gas sites info
+      <guid>https://TollefsonJ.github.io/projects/</guid>
+      <description>Historical environmental geography of the Providence manufactured gas industry info
 Political ecology of large mine permitting info
-Technoscientific discourse and the Fukushima nuclear disaster info</description>
+Technoscience discourse and the Fukushima nuclear disaster info
+
+\</description>
     </item>
     
     <item>
       <title>Technoscientific discourse and the Fukushima nuclear disaster</title>
-      <link>https://TollefsonJ.github.io/proj/fukushima/</link>
+      <link>https://TollefsonJ.github.io/research/fukushima/</link>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
-      <guid>https://TollefsonJ.github.io/proj/fukushima/</guid>
-      <description>This project uses blah blah blah
+      <guid>https://TollefsonJ.github.io/research/fukushima/</guid>
+      <description>Technoscience discourse and the Fukushima nuclear disaster This project uses blah blah blah
 Figures below do blah blah
- Publications
-Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo;. Public Understanding of Science. DOI: 10.1177/0963662520936186
+ \ \ \ **Publications** Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo;. Public Understanding of Science. DOI: 10.1177/0963662520936186
 
-Back to projects </description>
+Back to projects \</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://TollefsonJ.github.io/papers/donlin/</link>
+      <link>https://TollefsonJ.github.io/work/donlin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://TollefsonJ.github.io/papers/donlin/</guid>
+      <guid>https://TollefsonJ.github.io/work/donlin/</guid>
       <description>Tollefson, J. and Pannikar, B. (2020) &amp;ldquo;Impact assessment, public engagement, and environmental knowledge production: Large mine permitting in Alaska’s Yukon-Kuskokwim Delta&amp;rdquo; Under review
 For large extractive mineral projects, Environmental Impact Statement (EIS) processes function in part as a procedural tool to adjudicate the legitimacy of divergent environmental truth claims. Successful anti-extraction movements work to litigate divergent knowledge claims in the public arena, but few anti-extraction communities have access to a broad public audience.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://TollefsonJ.github.io/papers/fukushima_paper/</link>
+      <link>https://TollefsonJ.github.io/work/pebble/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://TollefsonJ.github.io/papers/fukushima_paper/</guid>
-      <description>Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo; Public Understanding of Science | (PDF)
-Many thought that the 11 March 2011 Fukushima nuclear disaster in Japan might be the end of the “global nuclear renaissance.” In Europe, mass media after Fukushima increasingly presented negative framing of nuclear energy and highlighted declining support for the nuclear industry. In the United States, however, nuclear production and public support for the industry remained steady.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://TollefsonJ.github.io/papers/pebble/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://TollefsonJ.github.io/papers/pebble/</guid>
+      <guid>https://TollefsonJ.github.io/work/pebble/</guid>
       <description>Panikkar, B. and Tollefson, J. (2018) &amp;ldquo;Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska&amp;rdquo; Social Studies of Science 48(5) | (PDF)
 This article examines the social, historical and political constitution of land and resource imaginaries in Bristol Bay, Alaska. We compare the dynamics of these different imaginaries in the region within the early permitting debates concerning the proposed Pebble Mine to understand the contemporary politics of defining and constructing ideologies of extractive resource use.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://TollefsonJ.github.io/papers/spindletop/</link>
+      <link>https://TollefsonJ.github.io/work/spindletop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://TollefsonJ.github.io/papers/spindletop/</guid>
+      <guid>https://TollefsonJ.github.io/work/spindletop/</guid>
       <description>Frickel, S. and Tollefson, J. &amp;ldquo;Before Spindletop: New Computational Methods for Excavating America’s Forgotten Fossil Fuel Industry&amp;rdquo; Under review
 From the mid-19th to the mid-20th century, many homes, institutions, and factories in the United States, Canada, Australia and much of Europe relied on gas produced from coal to light lamps and kitchen stoves. The manufactured gas industry sparked a revolution in urban form and function, while at the same time producing vast quantities of hazardous waste with minimal regulation.</description>
     </item>

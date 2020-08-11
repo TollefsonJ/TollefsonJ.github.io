@@ -5,74 +5,108 @@
   <url>
     <loc>https://TollefsonJ.github.io/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://TollefsonJ.github.io/about/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/proj/fmgp/</loc>
+    <loc>https://TollefsonJ.github.io/research/fmgp/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/proj/alaska/</loc>
+    <loc>https://TollefsonJ.github.io/research/alaska/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/proj/</loc>
+    <loc>https://TollefsonJ.github.io/work/fukushima_paper/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://TollefsonJ.github.io/pubs/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://TollefsonJ.github.io/pubs2/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://TollefsonJ.github.io/projects/</loc>
+    <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://TollefsonJ.github.io/research/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/proj/fukushima/</loc>
+    <loc>https://TollefsonJ.github.io/research/fukushima/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/papers/donlin/</loc>
+    <loc>https://TollefsonJ.github.io/work/</loc>
+    <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/papers/fukushima_paper/</loc>
+    <loc>https://TollefsonJ.github.io/work/donlin/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/papers/pebble/</loc>
+    <loc>https://TollefsonJ.github.io/work/pebble/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/papers/spindletop/</loc>
+    <loc>https://TollefsonJ.github.io/work/spindletop/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://TollefsonJ.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://TollefsonJ.github.io/papers/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://TollefsonJ.github.io/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

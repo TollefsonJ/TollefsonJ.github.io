@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
 /* Markdown */
 :root{
---maincolor: red;
+--maincolor: gray;
 --bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
---hovercolor:navy;
+--hovercolor:gray;
 --darkMaincolor: #50fa7b;
 }
 html {
@@ -13,7 +13,9 @@ html {
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
   line-height: 1.6em;
+  color: #4d4d4d;
 }
+
 body{
   display: block;
   margin: 8px;
@@ -46,8 +48,8 @@ blockquote {
 }
 
 a {
-  border-bottom: 3px solid var(--maincolor);
-  color: inherit;
+  border-bottom: 1px solid var(--maincolor);
+  color: black;
   text-decoration: none;
 }
 a:hover {
@@ -56,14 +58,15 @@ a:hover {
 }
 
 ul {
-  list-style: none;
+  list-style: square;
   padding-left: 2ch;
 }
 ul li {
-  text-indent: -2ch;
+  text-indent: 0ch;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 ul li::before {
-  content: '* ';
+  content: '';
   font-weight: bold;
 }
 
@@ -129,7 +132,7 @@ pre code {
   margin-bottom: 4em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 750px;
   padding: 0 1ch;
   word-wrap: break-word;
 }
@@ -144,18 +147,33 @@ header {
 
 header .main {
   font-size: 1.5rem;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-size: 1.2rem;
-  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
+
+h1 {
+  font-size: 1.2rem;
+  margin-top: 2em;
+  color: #262626;
+}
+h2 {
+  font-size: 1rem;
+  margin-top: 2em;
+  color: #262626;
+}
+h3, h4, h5, h6 {
+  font-size: 1rem;
+  margin-top: 1em;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* uncomment to add hashtags before headings:
 h1::before { color: var(--maincolor); content: '# '; }
 h2::before { color: var(--maincolor); content: '## '; }
 h3::before { color: var(--maincolor); content: '### '; }
 h4::before { color: var(--maincolor); content: '#### '; }
 h5::before { color: var(--maincolor); content: '##### '; }
-h6::before { color: var(--maincolor); content: '###### '; }
+h6::before { color: var(--maincolor); content: '###### '; } */
 
 /* Footer */
 footer {

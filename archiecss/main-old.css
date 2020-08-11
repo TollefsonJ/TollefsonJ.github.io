@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
 /* Markdown */
 :root{
---maincolor: red;
+--maincolor: gray;
 --bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
---hovercolor:navy;
+--hovercolor:gray;
 --darkMaincolor: #50fa7b;
 }
 html {
@@ -129,7 +129,7 @@ pre code {
   margin-bottom: 4em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 750px;
   padding: 0 1ch;
   word-wrap: break-word;
 }
@@ -144,18 +144,25 @@ header {
 
 header .main {
   font-size: 1.5rem;
+  margin-bottom: 1em;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-size: 1.2rem;
+  margin-top: 1em;
+}
+h2, h3, h4, h5, h6 {
+  font-size: 1rem;
   margin-top: 2em;
 }
 
+
+/* uncomment to add hashtags before headings:
 h1::before { color: var(--maincolor); content: '# '; }
 h2::before { color: var(--maincolor); content: '## '; }
 h3::before { color: var(--maincolor); content: '### '; }
 h4::before { color: var(--maincolor); content: '#### '; }
 h5::before { color: var(--maincolor); content: '##### '; }
-h6::before { color: var(--maincolor); content: '###### '; }
+h6::before { color: var(--maincolor); content: '###### '; } */
 
 /* Footer */
 footer {
