@@ -17,8 +17,9 @@
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/research/fmgp_method/</guid>
-      <description>Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
-Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves.</description>
+      <description>Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2020, under review)
+→Tollefson, J., Restrepo, I., and Friskel, S. (2020, in preparation)
+This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.</description>
     </item>
     
     <item>
@@ -41,10 +42,9 @@ Back to projects \</description>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/research/alaska/</guid>
-      <description>Political ecology of large mine permitting Something will go here. Also some pictures.
-Publications
-Tollefson, J. and Panikkar, B. (2020) &amp;ldquo;Impact assessment, public engagement, and environmental knowledge production: Large mine permitting in Alaska’s Yukon-Kuskokwim Delta&amp;rdquo;. Under review.
-Panikkar, B. and Tollefson, J. (2018) &amp;ldquo;Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska&amp;rdquo;. Social Studies of Science 48(5): 715-739. DOI: 10.1177/0306312718803453</description>
+      <description>Political ecology of large mine permitting →Tollefson, J. and Panikkar, B. (2020, under review)
+→Panikkar, B. and Tollefson, J. (2018)
+Something will go here. Also some pictures.</description>
     </item>
     
     <item>
@@ -53,10 +53,10 @@ Panikkar, B. and Tollefson, J. (2018) &amp;ldquo;Land as material, knowledge and
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/research/fukushima/</guid>
-      <description>Technoscience discourse and the Fukushima nuclear disaster This project uses blah blah blah
+      <description>Technoscience discourse and the Fukushima nuclear disaster →Tollefson, J. (2020)
+This project uses blah blah blah
 Figures below do blah blah
- Publications
-Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo;. Public Understanding of Science. DOI: 10.1177/0963662520936186</description>
+ Publications</description>
     </item>
     
   </channel>

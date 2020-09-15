@@ -18,8 +18,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Jonathan Tollefson" /><meta name="description" content="Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
-Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves." />
+<meta name="author" content="Jonathan Tollefson" /><meta name="description" content="Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2020, under review)
+→Tollefson, J., Restrepo, I., and Friskel, S. (2020, in preparation)
+This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%." />
 
 
 
@@ -38,31 +39,34 @@ Introduction From the mid-19th to the mid-20th century, most homes, institutions
 
 
 
-<link href="/sass/main.min.57f970220fb8c6e4b1597ccaa3944f7846957081247bf6a0a25a1a912409c247.css" rel="stylesheet">
+<link href="/sass/main.min.d2c000a502d8518d724932387f25d48b7ec117a3294ace4ed3e91b0d53567f8d.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
 <meta property="og:title" content="FMGP methods" />
-<meta property="og:description" content="Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
-Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves." />
+<meta property="og:description" content="Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2020, under review)
+→Tollefson, J., Restrepo, I., and Friskel, S. (2020, in preparation)
+This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://TollefsonJ.github.io/research/fmgp_method/" />
 <meta property="article:published_time" content="2020-08-04T14:27:38-04:00" />
 <meta property="article:modified_time" content="2020-08-04T14:27:38-04:00" />
 <meta itemprop="name" content="FMGP methods">
-<meta itemprop="description" content="Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
-Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves.">
+<meta itemprop="description" content="Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2020, under review)
+→Tollefson, J., Restrepo, I., and Friskel, S. (2020, in preparation)
+This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.">
 <meta itemprop="datePublished" content="2020-08-04T14:27:38-04:00" />
 <meta itemprop="dateModified" content="2020-08-04T14:27:38-04:00" />
-<meta itemprop="wordCount" content="2077">
+<meta itemprop="wordCount" content="2095">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="FMGP methods"/>
-<meta name="twitter:description" content="Detecting FMGP sites with OpenCV This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.
-Introduction From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves."/>
+<meta name="twitter:description" content="Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2020, under review)
+→Tollefson, J., Restrepo, I., and Friskel, S. (2020, in preparation)
+This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -125,13 +129,15 @@ Introduction From the mid-19th to the mid-20th century, most homes, institutions
           <article class="post">
   <div class="post-content">
     <h1 id="detecting-fmgp-sites-with-opencv">Detecting FMGP sites with OpenCV</h1>
+<p>→<a href="https://TollefsonJ.github.io/work/spindletop/">Frickel, S. and Tollefson, J. (2020, under review)</a></p>
+<p>→Tollefson, J., Restrepo, I., and Friskel, S. (2020, in preparation)</p>
 <p>This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.</p>
-<h2 id="introduction">Introduction</h2>
+<h3 id="introduction">Introduction</h3>
 <p>From the mid-19th to the mid-20th century, most homes, institutions, and factories in the US and much of Europe relied on gas produced from coal to light lamps and kitchen stoves. The production of manufactured gas (MFG, coal gas, or &ldquo;town gas&rdquo;) was a major business, and homes and business were increasingly linked via city-wide networks of underground gas pipes to central MFG production sites. Populous cities might include several dozen such sites, and even smaller, remote cities would have had at least one MFG plant by the end of the 1800s (Brown, 1886). Gas utilities additionally relied upon a network of intermediary gasholders (or &ldquo;gasometers&rdquo;) used to maintain adequate gas pressure for far-flung neighborhoods or institutions (Hatheway, 2012). Utility sites were joined by numerous smaller plants built to provide lighting, heat, or energy to individual institutions, including hospitals, educational institutions, manufacturing plants, railroad yards, and private estates. As MFG gave way to natural gas in the mid-20th century, the production and distribution sites that were once a striking visual symbol of the industrialized city were largely abandoned; some sites fell into disrepair, while others were demolished and the sites redeveloped for industrial, commercial, or residential use.</p>
 <p>This is a problem because the MFG industry produced substantial waste products under minimal environmental regulation, principally coal tar and tar-related wastes (Ecology &amp; Environment Inc, 1986; Hatheway, 2012; White and Barker, 1911). FMGP sites therefore signify the possible presence of compounds which present significant health hazards: Coal tar residuals contain the polycyclic aromatic hydrocarbon group of compounds, which represent both carcinogenic and mutagenic risk (Kim et al., 2013). Tar wastes are also persistent: Absent remediation, the risks associated with FMGP byproducts will not diminish (Hatheway, 2012). Health risks are compounded by the fact that pre-EPA zoning regulations largely failed to keep industry out of residential areas (Frickel and Elliott, 2018). In other words, undetected FMGP sites may lurk beneath areas not traditionally reserved for heavy industry, including residential or commercial corridors; waste compounds might additionally cross parcel boundaries through flooding or other hydraulic action.</p>
 <p>Former manufactured gas plants (FMGPs) are routinely discovered by accident - perhaps as often as once a month across the US (Hatheway, 2012) - including the 1980 discovery in Stroudsburg, PA, of the first site to be listed under the Superfund program (Phillips, 1991). Despite demonstrated health risks associated with exposure to MFG byproducts and the near-total lack of regulatory oversight over the century-long span of the MFG industry, however, no full accounting of the MFG production and distribution network has been achieved. This is in part because of several limitations in available data which have made the identification of FMGP site locations at a comprehensive scale an expensive and time-consuming undertaking.</p>
 <p>In response to these limitations, we propose a new method to precisely identify FMGP sites on a national scale by applying computer vision functions to digitized images of Sanborn fire insurance maps. This method focuses on a unique visual component of MFG production and distribution sites: The gasometer, or gas holder, a large circular building captured in period maps as a distinct circular outline. We developed Detect_Circles, a tool to identify circular structures in Sanborn map documents, and tested it with images drawn from five sets of Sanborn map scans covering the city of Providence, RI. Our results demonstrate that computer-aided map coding significantly reduces the time required to accurately locate possible FMGPs on a national scale and across multiple historical timepoints. This approach allows for a more complete accounting of the growth and extent of the MFG industry as a whole; it also makes way for a spatial analysis of the distribution of FMGP sites, as both a key component of the growth of the industrial city and as a source of contemporary contamination and toxic risk.</p>
-<h2 id="sanborn-maps">Sanborn maps</h2>
+<h3 id="sanborn-maps">Sanborn maps</h3>
 <p>Sanborn maps were published regularly starting in the late 19th century. Sanborn atlases cover most US cities with a population greater than about 6000 (Hatheway, 2012), and most larger cities were mapped and remapped at regular intervals to account for changes to the urban landscape. Atlases consist of multiple map volumes made up of several hundred pages representing just a few square blocks of city space. Today, map files are available for public use primarily via three database providers with different approaches to digitization, file storage, and access.</p>
 <table>
 <thead>
@@ -169,7 +175,7 @@ Introduction From the mid-19th to the mid-20th century, most homes, institutions
 </table>
 <p>Library of Congress (LOC) maps are most amenable to large-scale map analysis for two reasons. First, LOC maps are available for bulk download using a simple script to communicate with the LOC API. The API allows for map downloads at any regional and temporal scale; for example, a single API query returns all Sanborn files for every city in New England across every available publication year. Second, LOC files are stored as high quality digital color scans. Most circular features are color-filled and therefore more easily identifiable using the Hough.Circles package.</p>
 <p>ProQuest&rsquo;s &ldquo;Sanborn Digital Edition&rdquo; and Fire Insurance Maps Online (FIMo) also host Sanborn map images. ProQuest maps are rendered as black and white line-drawings; they are widely available for multiple cities over multiple years, but suffer from low scan quality and frequent misprints. FIMo maps, like LOC map scans, are available in full color, but suffer from poor download resolution. The ProQuest and FIMo databases are marginally more complete than the LOC repository; neither database allows for bulk file downloads, however, severely limiting their utility for map analysis at a broad spatial and temporal scale. It is possible to partially automate the download process, using the CURL utility, by taking advantage of the fact that the ProQuest and Sanborn databases store map pages according to a predictable sequence of URLs. FIMo maps are stored in a sequence of logically-numbered JPG files with a common base URL, which allows us to download FIMo maps city-by-city or volume-by-volume. The ProQuest database instead iterates components of the URL path for each maps page, and stores map files as PDF documents with a single filename (&ldquo;default.pdf&rdquo;). The ProQuest database structure requires that we first generate a list of unique URLs based on a set of predictable parameters, which can automated for each map volume using a simple Python script. Even with the help of the CURL utility, however, ProQuest and FIMo maps are much less amenable to bulk analysis.</p>
-<h2 id="map-analysis">Map analysis</h2>
+<h3 id="map-analysis">Map analysis</h3>
 <p>We use a simple Python script (&ldquo;Detect_Circles&rdquo;) to analyze Sanborn map images for circular features that correspond with possible FMGP building outlines, using the Hough.Circles package in OpenCV (<a href="http://opencv.org">http://opencv.org</a>). The Detect_Circles script (1) re-sizes images to a common resolution; (2) iterates the Hough.Circles package through multiple ranges of possible circle radii; (3) marks all circles that fall within a defined set of analysis parameters; and (4) outputs images with marked circles to an &ldquo;output&rdquo; directory for manual site coding.</p>
 <p>See below for example input/output image pairs for ProQuest and LOC maps, respectively.</p>
 <h4 id="loc-inputoutput-images">LOC input/output images</h4>
@@ -182,9 +188,9 @@ Introduction From the mid-19th to the mid-20th century, most homes, institutions
 <a href="/sanborn/DIG-Providence1920vol1_00027_out.jpg"><img src="/sanborn/DIG-Providence1920vol1_00027_out.jpg" style="float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;"></p>
 <p style="clear: both;">
 </a>
-<h2 id="outcome">Outcome</h2>
+<h3 id="outcome">Outcome</h3>
 <p>Detect_Circles parameters were tuned to minimize false positives while ensuring that the algorithm did not fail to identify any &ldquo;true&rdquo; circles. An analysis of Providence, RI area maps covering the years 1889, 1899, 1920-21, and 1921-56 reveals that the Detect_Circles script accurately identifies all circular features and reduces the number of images for manual coding by 85-90%, making it possible to identify former manufacture gas production and distribution sites at a much greater geographic and temporal scale.</p>
-<h2 id="remaining-challenges">Remaining challenges</h2>
+<h3 id="remaining-challenges">Remaining challenges</h3>
 <p>Sanborn map images are remarkably consistent. Map pages were published with a predictable scale and the style of colors, lines, and building footprints is largely unchanged over the seventy years separating the first and last available publication dates. Maps do present several challenges for a detection algorithm that focuses on circular features, however.</p>
 <p>First, all map pages include the image of a compass rose to orient readers directionally. Some map volumes printed the compass image with a central circular figure, of a comparable size to many FMGP site circles. Expanding the detection algorithm beyond Providence requires that we exclude compass circles from being detected as relevant features. This is complicated by the fact that there is no way to determine whether a compass circle is present in a given map volume without visual inspection.</p>
 <p>Second, some map pages include prominent circular or ovular titles, many - but not all - of which are picked up by the Detect_Circles script as a possible positive result. Increasing the stringency of Hough.Circles parameters to the point that ovular titles are not recognized as relevant circular features has the unacceptable consequence of causing the Detect_Circle algorithm to skip over poorly-printed or misshaped FMGP circles.</p>
@@ -194,10 +200,10 @@ Introduction From the mid-19th to the mid-20th century, most homes, institutions
 <a href="/sanborn/title2.jpg"><img src="/sanborn/title2.jpg" style="float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;"></p>
 <p style="clear: both;">
 </a>
-<h2 id="sanborn-maps-limitations">Sanborn maps: limitations</h2>
+<h3 id="sanborn-maps-limitations">Sanborn maps: limitations</h3>
 <p>The Detect_Circles method is also beholden to the scope and accuracy of Sanborn documents, which introduces several limitations to the approach described thus far. First, the Sanborn company was focused on assessing urban fire risk, so their mapping operation at times failed to capture outlying regions (Hatheway, 2012). More significantly, Sanborn maps were published with lesser frequency than industry directories; given the sometimes-frequent turnover in the MFG industry, sites that opened and closed between publication years might not be captured using an approach that depends on Sanborn documents. Additionally, for cities that were settled and industrialized relatively early, the MFG industry in many cases predated the first Sanborn map publications. The Providence Gas Company, for instance, was incorporated in June of 1847, twenty years before the first Sanborn maps were published in New England. The Sanborn approach might therefore miss the earliest MFG sites in cities with an especially long industrial history. Approaches that rely on Brown&rsquo;s Directory listings, which were first published in 1886, are also limited in this fashion.</p>
 <p>These limitations are partially mitigated by several factors. First, the MFG industry, decidedly and definitionally an urban phenomenon, was unlikely to stretch beyond the built-up areas where the Sanborn company operated. Second, Sanborn maps capture building footprints whether or not those buildings were in use at the time of publication. This means that MFG sites might be identified long after closure so long as the gasometer or gas holder structure was still standing. Indeed, the Aleppo Street site in Providence was included in both the 1889 and 1920 map sets despite the fact it was no longer in use; the circular gas holder still stands, today, one of the last remaining gas storage structures in Providence.</p>
-<h2 id="references">References</h2>
+<h3 id="references">References</h3>
 <p>Brown, E. C. (1886). <em>Brown&rsquo;s directory of American gas companies</em>.</p>
 <p>Ecology &amp; Environment Inc. (1986). <em>Coal/oil gasification site study,
 Region X</em> (TDD R10-8405-03). US Environmental Protection Agency.</p>
