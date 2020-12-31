@@ -6,19 +6,19 @@
     <description>Recent content in Works on Jonathan Tollefson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2020 14:27:38 -0400</lastBuildDate>
     
 	<atom:link href="https://TollefsonJ.github.io/work/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Post-Fukushima discourse in the US press</title>
-      <link>https://TollefsonJ.github.io/work/fukushima_paper/</link>
-      <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
+      <title></title>
+      <link>https://TollefsonJ.github.io/work/comp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://TollefsonJ.github.io/work/fukushima_paper/</guid>
-      <description>Tollefson, J. (2020) &amp;ldquo;Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public&amp;rdquo; Public Understanding of Science | (PDF)
-Many thought that the 11 March 2011 Fukushima nuclear disaster in Japan might be the end of the “global nuclear renaissance.” In Europe, mass media after Fukushima increasingly presented negative framing of nuclear energy and highlighted declining support for the nuclear industry. In the United States, however, nuclear production and public support for the industry remained steady.</description>
+      <guid>https://TollefsonJ.github.io/work/comp/</guid>
+      <description>Feature extraction and machine learning techniques for identifying historic urban environmental hazards Tollefson, J., Frickel, S., and Restrepo, M. I.
+Under review
+US cities contain unknown numbers of undocumented sites that are legacies of the “manufactured gas” industry that dominated energy production during the late-19th and early-20th centuries. While many of these unidentified sites likely contain significant levels of highly toxic and biologically persistent contamination, locating them remains a significant challenge.</description>
     </item>
     
     <item>
@@ -27,8 +27,31 @@ Many thought that the 11 March 2011 Fukushima nuclear disaster in Japan might be
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://TollefsonJ.github.io/work/donlin/</guid>
-      <description>Tollefson, J. and Pannikar, B. (2020) &amp;ldquo;Impact assessment, public engagement, and environmental knowledge production: Large mine permitting in Alaska’s Yukon-Kuskokwim Delta&amp;rdquo; Under review
+      <description>Impact assessment, public engagement, and environmental knowledge production: Large mine permitting in Alaska’s Yukon-Kuskokwim Delta Tollefson, J. and Pannikar, B.
+Journal of Political Ecology 27(1) | (PDF)
 For large extractive mineral projects, Environmental Impact Statement (EIS) processes function in part as a procedural tool to adjudicate the legitimacy of divergent environmental truth claims. Successful anti-extraction movements work to litigate divergent knowledge claims in the public arena, but few anti-extraction communities have access to a broad public audience.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://TollefsonJ.github.io/work/eif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://TollefsonJ.github.io/work/eif/</guid>
+      <description>Environmental inequality formation in the 19th century. Frickel, S. and Tollefson, J.
+Under review
+From the mid-19th to the mid-20th century, many homes, institutions, and factories in the United States, Canada, Australia and much of Europe relied on gas produced from coal to light lamps and kitchen stoves. The manufactured gas industry sparked a revolution in urban form and function, while at the same time producing vast quantities of hazardous waste with minimal regulation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://TollefsonJ.github.io/work/fukushima_paper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://TollefsonJ.github.io/work/fukushima_paper/</guid>
+      <description>Post-Fukushima discourse in the US press: Quantified knowledge, the technical object, and a panicked public Tollefson, J.
+Public Understanding of Science 29(7) | (PDF)
+Many thought that the 11 March 2011 Fukushima nuclear disaster in Japan might be the end of the “global nuclear renaissance.” In Europe, mass media after Fukushima increasingly presented negative framing of nuclear energy and highlighted declining support for the nuclear industry. In the United States, however, nuclear production and public support for the industry remained steady.</description>
     </item>
     
     <item>
@@ -37,18 +60,9 @@ For large extractive mineral projects, Environmental Impact Statement (EIS) proc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://TollefsonJ.github.io/work/pebble/</guid>
-      <description>Panikkar, B. and Tollefson, J. (2018) &amp;ldquo;Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska&amp;rdquo; Social Studies of Science 48(5) | (PDF)
+      <description>Land as material, knowledge and relationships: Resource extraction and subsistence imaginaries in Bristol Bay, Alaska Panikkar, B. and Tollefson, J.
+Social Studies of Science 48(5) | (PDF)
 This article examines the social, historical and political constitution of land and resource imaginaries in Bristol Bay, Alaska. We compare the dynamics of these different imaginaries in the region within the early permitting debates concerning the proposed Pebble Mine to understand the contemporary politics of defining and constructing ideologies of extractive resource use.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://TollefsonJ.github.io/work/spindletop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://TollefsonJ.github.io/work/spindletop/</guid>
-      <description>Frickel, S. and Tollefson, J. &amp;ldquo;Before Spindletop: New Computational Methods for Excavating America’s Forgotten Fossil Fuel Industry&amp;rdquo; Under review
-From the mid-19th to the mid-20th century, many homes, institutions, and factories in the United States, Canada, Australia and much of Europe relied on gas produced from coal to light lamps and kitchen stoves. The manufactured gas industry sparked a revolution in urban form and function, while at the same time producing vast quantities of hazardous waste with minimal regulation.</description>
     </item>
     
   </channel>

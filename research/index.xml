@@ -18,8 +18,8 @@
       
       <guid>https://TollefsonJ.github.io/research/fmgp_method/</guid>
       <description>Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2020, under review)
-→Tollefson, J., Restrepo, I., and Friskel, S. (2020, in preparation)
-This is a project to detect former manufactured gas plants (FMGP) using the Hough.Circles package in OpenCV. With the right Hough.Circles parameters, we are able to accurately identify FMGP sites in historic fire insurance maps. The Hough.Circles approach reduces the time required to manually code map images by up to 90%.</description>
+→Tollefson, J., Frickel, S. and Restrepo, I. (2020, in preparation)
+This is a project to detect former manufactured gas plants (FMGP) using OpenCV freeware (http://opencv.org) to pass candidate map regions to a convolutional neural network (CNN) trained to identify the circular gasometer structures that signify MGPs and district gasometers. Our &amp;ldquo;Detect_MGP&amp;rdquo; approach reduces the time required to manually code map images by up to 90%, with a recall rate of approximately 85-90%.</description>
     </item>
     
     <item>

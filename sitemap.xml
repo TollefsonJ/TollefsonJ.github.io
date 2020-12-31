@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://TollefsonJ.github.io/maps/</loc>
+    <lastmod>2020-09-21T14:27:38-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://TollefsonJ.github.io/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -37,21 +44,7 @@
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/work/fukushima_paper/</loc>
-    <lastmod>2020-08-04T14:27:38-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://TollefsonJ.github.io/pubs/</loc>
-    <lastmod>2020-08-04T14:27:38-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://TollefsonJ.github.io/pubs2/</loc>
     <lastmod>2020-08-04T14:27:38-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -79,21 +72,15 @@
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/work/</loc>
-    <lastmod>2020-08-04T14:27:38-04:00</lastmod>
+    <loc>https://TollefsonJ.github.io/fmgp_method_out1/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/fmgp_method_out/</loc>
+    <loc>https://TollefsonJ.github.io/work/comp/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://TollefsonJ.github.io/fmgp_significance/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -103,13 +90,19 @@
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/work/pebble/</loc>
+    <loc>https://TollefsonJ.github.io/work/eif/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://TollefsonJ.github.io/work/spindletop/</loc>
+    <loc>https://TollefsonJ.github.io/work/fukushima_paper/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://TollefsonJ.github.io/work/pebble/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -122,6 +115,12 @@
   
   <url>
     <loc>https://TollefsonJ.github.io/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://TollefsonJ.github.io/work/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
