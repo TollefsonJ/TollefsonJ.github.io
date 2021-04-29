@@ -72,6 +72,12 @@
   </url>
   
   <url>
+    <loc>https://TollefsonJ.github.io/cv/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://TollefsonJ.github.io/fmgp_method_out1/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
