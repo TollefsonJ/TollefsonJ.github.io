@@ -104,15 +104,6 @@ Figures below do blah blah
     
     <item>
       <title></title>
-      <link>https://TollefsonJ.github.io/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://TollefsonJ.github.io/cv/</guid>
-      <description>style  code{white-space: pre-wrap;} span.smallcaps{font-variant: small-caps;} span.underline{text-decoration: underline;} div.column{display: inline-block; vertical-align: top; width: 50%;} div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;} ul.task-list{list-style: none;} .display.math{display: block; text-align: center; margin: 0.5rem auto;}       body { font-family: &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif; width: 800px; margin: auto; background: #FFFFFF; padding: 10px 10px 10px 10px; } /* .title { display: none; } */ /* Title of the resume */ h1 { font-size: 55px; color: #757575; text-align:center; margin-bottom:15px; } /* Titles of categories */ h2 { color: #397249; } /* There is a bar just before each category */ h2:before { content: &#34;</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://TollefsonJ.github.io/fmgp_method_out1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
