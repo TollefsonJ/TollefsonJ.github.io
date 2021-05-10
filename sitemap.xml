@@ -114,6 +114,12 @@
   </url>
   
   <url>
+    <loc>https://TollefsonJ.github.io/contact/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://TollefsonJ.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
