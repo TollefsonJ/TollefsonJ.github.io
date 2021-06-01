@@ -13,8 +13,8 @@
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/research/fmgp_method/</guid>
-      <description>Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2020, under review)
-→Tollefson, J., Frickel, S. and Restrepo, I. (2020, in preparation)
+      <description>Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2021, under review)
+→Tollefson, J., Frickel, S. and Restrepo, I. (2021, in preparation)
 This is a project to detect former manufactured gas plants (FMGP) using OpenCV freeware (http://opencv.org) to pass candidate map regions to a convolutional neural network (CNN) trained to identify the circular gasometer structures that signify MGPs and district gasometers. Our &amp;ldquo;Detect_MGP&amp;rdquo; approach reduces the time required to manually code map images by up to 90%, with a recall rate of approximately 85-90%.</description>
     </item>
     
@@ -49,10 +49,7 @@ Something will go here. Also some pictures.</description>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/research/fukushima/</guid>
-      <description>Technoscience discourse and the Fukushima nuclear disaster →Tollefson, J. (2020)
-This project uses blah blah blah
-Figures below do blah blah
- Publications</description>
+      <description>Technoscience discourse and the Fukushima nuclear disaster →Tollefson, J. (2020)</description>
     </item>
     
   </channel>
