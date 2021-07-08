@@ -1,0 +1,352 @@
+﻿article {
+    display:none;
+}
+
+.loading {
+    display:block;
+}
+
+.login article {
+    display:block;
+}
+
+.login .loading {
+    display:none;
+}
+
+.circle1, .circle {
+    z-index:10002;
+}
+
+.loading h3 {
+    line-height: 2.5vw;
+    font-family: sans-serif;
+    font-size: 2.3vw;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    margin-top: 1vw;
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+    /*text-shadow: 0vw 0vw 0 #FFF, -0.05vw -0.05vw 0 #FFF, 0.05vw -0.05vw 0 #FFF, -0.05vw 0.05vw 0 #FFF, 0.05vw 0.05vw 0 #FFF;*/
+    /*transform: rotate3d(0, 1, 0, 0deg);
+
+    animation-name: steam;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;*/
+    /*position: relative;
+    background: url(/Common/Images/iPosters/loading.gif) no-repeat top center;
+    margin-top: -1vw;
+    height: 12vw;
+    background-size: 18vw !important;*/
+}
+
+.loading h3.no-spin {
+    animation-play-state:paused;
+}
+#loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 900000;
+}
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10001;
+    margin: auto;
+    height: 180px;
+    /*Christer added rotate compatibility in Safari*/
+    -webkit-transform: translateZ(1000px);
+    transform-style: preserve-3d;
+    /*perspective: 200px;*/
+}
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10001;
+    margin: auto;
+    height: 13vw;    
+    animation-name: steam;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;    
+}
+
+
+#loading-background {      
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:10000;
+    background-color:#fff;     
+}
+/*Christer changed size of default loading icon*/
+.circle {
+    /*transform: rotate3d(0, 1, 0, 0deg);
+    animation-name: steam;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;*/
+    position: relative;
+    background: url(/Common/Images/iPosters/amuze-flag.png) no-repeat top center;
+    /*background-size: contain;
+    height: 100px;*/
+    /*background-size: 9% !important;
+    height: 100%;
+    width: auto;*/
+    height: 12vw;
+    background-size: 18vw !important;
+}
+
+/*.loadingtext {
+    font-size: 2vw;
+    margin-top: -5vw;
+    z-index: 10001;
+}*/
+
+    /*.loadingtext span {
+        background-color: #ffffff;
+        padding: 3.5vw 3.25vw 0.5vw 3.25vw;
+    }*/
+
+@keyframes steam {
+    0% {
+        transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(500px) rotateY(360deg);
+    }
+}
+
+.circle1 {
+    display: none;
+    /*font-size: 1.5vw;
+    line-height: 1.8vw;
+    padding-top: 1vw;*/
+}
+
+@-moz-keyframes throbber-loader {
+  0% {
+    background: #def8a6;
+  }
+  10% {
+    background: #a5cd4e;
+  }
+  40% {
+    background: #def8a6;
+  }
+}
+@-webkit-keyframes throbber-loader {
+  0% {
+    background: #def8a6;
+  }
+  10% {
+    background: #a5cd4e;
+  }
+  40% {
+    background: #def8a6;
+  }
+}
+@keyframes throbber-loader {
+  0% {
+    background: #def8a6;
+  }
+  10% {
+    background: #a5cd4e;
+  }
+  40% {
+    background: #def8a6;
+  }
+}
+/* :not(:required) hides these rules from IE9 and below */
+/*.circle1:not(:required) {
+  -moz-animation: throbber-loader 1000ms 300ms infinite ease-out;
+  -webkit-animation: throbber-loader 1000ms 300ms infinite ease-out;
+  animation: throbber-loader 1000ms 300ms infinite ease-out;
+  background: #def8a6;
+  position: relative;
+  text-indent: -9999px;
+  width: 0.9em;
+  height: 1.5em;
+  margin: 0 auto;
+}
+.circle1:not(:required):before, .circle1:not(:required):after {
+  background: #def8a6;
+  content: '\x200B';
+  display: inline-block;
+  width: 0.9em;
+  height: 1.5em;
+  position: absolute;
+  top: 0;
+}
+.circle1:not(:required):before {
+  -moz-animation: throbber-loader 2000ms 150ms infinite ease-out;
+  -webkit-animation: throbber-loader 2000ms 150ms infinite ease-out;
+  animation: throbber-loader 2000ms 150ms infinite ease-out;
+  left: -1.6em;
+}
+.circle1:not(:required):after {
+  -moz-animation: throbber-loader 2000ms 450ms infinite ease-out;
+  -webkit-animation: throbber-loader 2000ms 450ms infinite ease-out;
+  animation: throbber-loader 2000ms 450ms infinite ease-out;
+  right: -1.6em;
+}*/
+
+.stop {
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    animation-play-state:paused;
+    border-color:yellow;
+}
+
+.tfi .circle {
+    background: url(/Common/Images/iPosters/GetFile.jpg) no-repeat top center;
+}
+
+.chole .circle {
+    background: url(/Common/Images/TFI/chole-symbol.png) no-repeat top center;
+    height: 200px;
+}
+
+.rcpsych .circle {
+    background: url(/Common/Images/RCPsych/RCPsych-loading.jpg) no-repeat top center;
+    height: 200px;
+}
+
+.ava .circle {
+    background: url(/Common/Images/iPosters/AVA2019Logo.png) no-repeat top center;
+    height: 14vw !important;
+    background-size: 14vw !important;
+}
+
+.www .circle {
+    background: url(/Common/Images/iPosters/siwi-loading.png) no-repeat top center;
+    height: 200px;
+}
+
+.apsa .circle {
+    background: url(/Common/Images/iPosters/apsa-loading.png) no-repeat top center;
+    /*height: 200px;*/
+}
+
+.assh .circle {
+    background: url(/Common/Images/iPosters/assh-loading.png) no-repeat top center;
+    /*height: 205px;*/
+}
+
+.iucn .circle {
+    background: url(/Common/Images/iPosters/iucn-loading.png) no-repeat top center;
+    height: 200px;
+}
+
+.tfidemo .circle {
+    background: url(/Common/Images/iPosters/tfi-loading.png) no-repeat top center;
+    height: 200px;
+}
+
+.emaac2017 .circle {
+    background: url(/Common/Images/iPosters/EMAAC2018-loading.png) no-repeat top center;
+    height: 200px;
+}
+
+/*.natcon17 .circle {
+    background: url(/Common/Images/iPosters/natcon19-loading.png) no-repeat top center;
+    height: 200px;
+    background-size: 23vw !important;
+    top: 4vw;
+}*/
+
+.krf .circle {
+    background: url(/Common/Images/iPosters/krf-loading-logo.png) no-repeat top center;
+    background-size: 12vw !important;
+}
+
+.siwi .circle {
+    background: url(/Common/Images/iPosters/siwi-loading.png) no-repeat top center;
+    /*height: 200px;*/
+}
+
+.evre .circle {
+    background: url(/Common/Images/iPosters/woc2018-loading.jpg) no-repeat top center;
+    height: 200px;
+    background-size: 200px;
+}
+
+.aas .circle {
+    background: url(/Common/Images/iPosters/AAS-loading-logo.jpg) no-repeat top center;
+    height: 200px;
+    background-size: 200px !important;
+}
+
+/*.rcog .circle {
+    background: url(/Common/Images/iPosters/RCOG_Logo_2019.png) no-repeat top center;
+    height: 21vw;
+}*/
+
+.ifm .circle {
+    background: url(/Common/Images/iPosters/IFM-logo.jpg) no-repeat top center;
+    height: 15vw;
+    background-size: 15vw !important;
+}
+
+.shock .circle {
+    background: url(/Common/Images/iPosters/ESOT-2019-loading-icon.jpg) no-repeat top center;
+    height: 18vw;
+    background-size: 21vw !important;
+}
+
+.wellassembled .circle {
+    background: url(/Common/Images/iPosters/evs-logo-blue.png) no-repeat top center;
+    height: 13vw;
+    background-size: 14vw !important;
+}
+
+.iaf .circle {
+    background: url(/Common/Images/iPosters/IP-loading.png) no-repeat top center;
+    height: 13vw;
+    background-size: 14vw !important;
+}
+
+.osm_2020.agu .circle {
+    background: url(/Common/Images/iPosters/osm-logo.png) no-repeat top center;
+    /*height: 16vw;
+    background-size: 16vw !important;*/
+}
+
+.fall_meeting_2019.agu .circle {
+    background: url(/Common/Images/iPosters/AGU100-logo.png) no-repeat top center;
+    height: 16vw;
+    background-size: 16vw !important;
+}
+
+/*.agu .circle {
+    background: url(/Common/Images/iPosters/AGU100-logo.png) no-repeat top center;
+    height: 16vw;
+    background-size: 16vw !important;
+}*/
+
+.covid19_covenv .circle {
+    background-size: 15vw !important;
+    height: 15vw;
+}
+
+.ecnp .circle {
+    background-size: 14vw !important;
+    height: 5vw;
+}
+
+.aera .circle {
+    height: 14vw;
+    background-size: 14vw !important;
+}

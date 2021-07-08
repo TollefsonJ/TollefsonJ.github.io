@@ -8,13 +8,23 @@
     <language>en</language><atom:link href="https://TollefsonJ.github.io/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://TollefsonJ.github.io/work/ak_history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://TollefsonJ.github.io/work/ak_history/</guid>
+      <description>Land use policy and land imaginaries in Alaska: The historical roots of contemporary environmental conflicts. Tollefson, J. and Pannikar, B.
+Under review</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://TollefsonJ.github.io/work/comp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://TollefsonJ.github.io/work/comp/</guid>
       <description>Feature extraction and machine learning techniques for identifying historic urban environmental hazards Tollefson, J., Frickel, S., and Restrepo, M. I.
-Under review
-US cities contain unknown numbers of undocumented sites that are legacies of the “manufactured gas” industry that dominated energy production during the late-19th and early-20th centuries. While many of these unidentified sites likely contain significant levels of highly toxic and biologically persistent contamination, locating them remains a significant challenge.</description>
+R+R at PLOS One
+U.S. cities contain unknown numbers of undocumented “manufactured gas” sites, legacies of an industry that dominated energy production during the late-19th and early-20th centuries. While many of these unidentified sites likely contain significant levels of highly toxic and biologically persistent contamination, locating them remains a significant challenge.</description>
     </item>
     
     <item>

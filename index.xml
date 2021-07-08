@@ -36,8 +36,8 @@ I previously received an M.</description>
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/research/fmgp_method/</guid>
-      <description>Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2021, under review)
-→Tollefson, J., Frickel, S. and Restrepo, I. (2021, in preparation)
+      <description>Detecting FMGP sites with OpenCV →Frickel, S. and Tollefson, J. (2021, in preparation
+→Tollefson, J., Frickel, S. and Restrepo, I. (R+R at PLOS One)
 This is a project to detect former manufactured gas plants (FMGP) using OpenCV freeware (http://opencv.org) to pass candidate map regions to a convolutional neural network (CNN) trained to identify the circular gasometer structures that signify MGPs and district gasometers. Our &amp;ldquo;Detect_MGP&amp;rdquo; approach reduces the time required to manually code map images by up to 90%, with a recall rate of approximately 85-90%.</description>
     </item>
     
@@ -47,7 +47,8 @@ This is a project to detect former manufactured gas plants (FMGP) using OpenCV f
       <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
       
       <guid>https://TollefsonJ.github.io/research/alaska/</guid>
-      <description>Political ecology of large mine permitting →Tollefson, J. and Panikkar, B. (2020, under review)
+      <description>Political ecology of large mine permitting →Tollefson, J. and Panikkar, B. (Under review)
+→Tollefson, J. and Panikkar, B. (2020)
 →Panikkar, B. and Tollefson, J. (2018)</description>
     </item>
     
@@ -59,19 +60,8 @@ This is a project to detect former manufactured gas plants (FMGP) using OpenCV f
       <guid>https://TollefsonJ.github.io/pubs/</guid>
       <description>Working papers Tollefson, J., Frickel, S. and Restrepo, I. &amp;ldquo;Feature extraction and machine learning techniques for identifying historic urban environmental hazards.&amp;rdquo; R+R, PLOS ONE.
 Frickel, S. and Tollefson, J. &amp;ldquo;Environmental inequality formation in the 19th century&amp;rdquo;. In preparation.
-Tollefson, J.. &amp;ldquo;Suburban development and agricultural land conversion: New architectures of environmental health inequality. In preparation.
-Tollefson, J. and Panikkar, B. &amp;ldquo;From Juneau to Bristol Bay: Ideations of underground wealth, region building, and knowledge in contemporary Alaska.</description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https://TollefsonJ.github.io/projects/</link>
-      <pubDate>Tue, 04 Aug 2020 14:27:38 -0400</pubDate>
-      
-      <guid>https://TollefsonJ.github.io/projects/</guid>
-      <description>This page under construction!  Community gardens, manufacturing, and hazardous sites in Providence, RI Historical environmental geography of the Providence manufactured gas industry info
-Political ecology of large mine permitting info
-Technoscience discourse and the Fukushima nuclear disaster info</description>
+Tollefson, J. and Panikkar, B. &amp;ldquo;Land use policy and land imaginaries in Alaska: The historical roots of contemporary environmental conflicts.&amp;rdquo; In preparation.
+Tollefson, J.. &amp;ldquo;Suburban development and agricultural land conversion: New architectures of environmental health inequality.</description>
     </item>
     
     <item>
@@ -85,15 +75,12 @@ Technoscience discourse and the Fukushima nuclear disaster info</description>
     
     <item>
       <title></title>
-      <link>https://TollefsonJ.github.io/fmgp_method_out1/</link>
+      <link>https://TollefsonJ.github.io/work/ak_history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://TollefsonJ.github.io/fmgp_method_out1/</guid>
-      <description>Here&amp;rsquo;s a description of the analysis process as it stands, as succinct as possible.
-&amp;lt;a href=&amp;quot;/sanborn/LOC-Providence1889vol1_00005L.jpg&amp;quot;&amp;gt;{=html}&amp;lt;img src=&amp;quot;/sanborn/LOC-Providence1889vol1_00005L.jpg&amp;quot; style=&amp;quot;float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;&amp;quot;&amp;gt;{=html} &amp;lt;a href=&amp;quot;/sanborn/LOC-Providence1889vol1_00005L_out.jpg&amp;quot;&amp;gt;{=html}&amp;lt;img src=&amp;quot;/sanborn/LOC-Providence1889vol1_00005L_out.jpg&amp;quot; style=&amp;quot;float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;&amp;quot;&amp;gt;{=html}
-1  &amp;lt;p style=&amp;#34;clear: both;&amp;#34;&amp;gt;   &amp;lt;/a&amp;gt;{=html}
-&amp;lt;a href=&amp;quot;/sanborn/DIG-Providence1920vol1_00027.jpg&amp;quot;&amp;gt;{=html}&amp;lt;img src=&amp;quot;/sanborn/DIG-Providence1920vol1_00027.jpg&amp;quot; style=&amp;quot;float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;&amp;quot;&amp;gt;{=html} &amp;lt;a href=&amp;quot;/sanborn/DIG-Providence1920vol1_00027_out.jpg&amp;quot;&amp;gt;{=html}&amp;lt;img src=&amp;quot;/sanborn/DIG-Providence1920vol1_00027_out.jpg&amp;quot; style=&amp;quot;float: left; width: 40%; margin-right: 3%; margin-bottom: 0.5em;&amp;quot;&amp;gt;{=html}
-1  &amp;lt;p style=&amp;#34;clear: both;&amp;#34;&amp;gt;   &amp;lt;/a&amp;gt;{=html}</description>
+      <guid>https://TollefsonJ.github.io/work/ak_history/</guid>
+      <description>Land use policy and land imaginaries in Alaska: The historical roots of contemporary environmental conflicts. Tollefson, J. and Pannikar, B.
+Under review</description>
     </item>
     
     <item>
@@ -103,8 +90,8 @@ Technoscience discourse and the Fukushima nuclear disaster info</description>
       
       <guid>https://TollefsonJ.github.io/work/comp/</guid>
       <description>Feature extraction and machine learning techniques for identifying historic urban environmental hazards Tollefson, J., Frickel, S., and Restrepo, M. I.
-Under review
-US cities contain unknown numbers of undocumented sites that are legacies of the “manufactured gas” industry that dominated energy production during the late-19th and early-20th centuries. While many of these unidentified sites likely contain significant levels of highly toxic and biologically persistent contamination, locating them remains a significant challenge.</description>
+R+R at PLOS One
+U.S. cities contain unknown numbers of undocumented “manufactured gas” sites, legacies of an industry that dominated energy production during the late-19th and early-20th centuries. While many of these unidentified sites likely contain significant levels of highly toxic and biologically persistent contamination, locating them remains a significant challenge.</description>
     </item>
     
     <item>
